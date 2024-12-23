@@ -13,3 +13,16 @@ a{
 img{
     cursor: pointer;
 }
+
+/*! Header */
+
+nav{
+    padding: 10px;
+}
+
+nav span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
