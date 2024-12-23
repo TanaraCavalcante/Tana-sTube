@@ -17,7 +17,12 @@ img{
 /*! Header */
 
 nav{
-    padding: 10px;
+    padding: 10px , 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    position: static;
+    top: 0;
+    z-index: 10;
 }
 
 nav span {
@@ -26,3 +31,10 @@ nav span {
     font-weight: 500;
 }
 
+nav img{
+    width: 25%;
+}
+
+nav i{
+    font-size: 20px;
+}
