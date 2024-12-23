@@ -17,7 +17,7 @@ img{
 /*! Header */
 
 nav{
-    padding: 10px , 2%;
+    padding: 10px ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: white;
     position: static;
@@ -31,10 +31,16 @@ nav span {
     font-weight: 500;
 }
 
-nav img{
-    width: 25%;
+.nav-left img{
+    width: 23%;
 }
 
 nav i{
     font-size: 20px;
+    margin-right: 5%;
+}
+
+.nav-right img{
+    width: 20%;
+    margin-right: 5%;
 }
