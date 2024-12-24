@@ -9,7 +9,7 @@ img{
     cursor: pointer;
 }
 
-/*! Header */
+/*?------------------------ Header -------------------------*/
 
 nav{
     padding: 10px ;
@@ -91,3 +91,6 @@ nav i{
 }
 
 
+.subscribed-list img{
+    width: 45%;
+}
