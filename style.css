@@ -146,17 +146,10 @@ nav i{
 }
 
 /* --Lista video-- */
-.list-container{
-   display: grid;
-
-}
-
-.list-container .thumbnail{
-    width: 32%;   /*TODO tamanho da imagem aqui*/
-}
 
 .list-container .user{
-    width: 5%;   /*TODO tamanho da imagem aqui*/
+    width: 13%;   /*TODO tamanho da imagem user aqui*/
+    border-radius: 50%;
 }
 
 .list-container a{
