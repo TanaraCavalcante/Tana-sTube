@@ -15,8 +15,10 @@ nav{
     padding: 10px ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: white;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     z-index: 10;
 }
 
@@ -86,6 +88,7 @@ nav i{
 .shortcut-links i{
     font-size: 15px;
     margin-right: 20px;
+    margin-bottom: 10px; ********
 }
 .sidebar hr{
     border: 0;
@@ -95,7 +98,7 @@ nav i{
 }
 
 .subscribed-list img{
-    width: 25%;
+    width: 30px;
     border-radius: 50%;
     margin-right: 20px;
 }
@@ -106,3 +109,25 @@ nav i{
     color: #5a5a5a;
 }
 
+/* --- Class by JS ---*/
+.small-sidebar{
+    width: 5%;
+}
+
+.small-sidebar a p,
+.small-sidebar h3{
+    display: none;
+}
+
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+/*!---------Main----------*/
+
+.banner img{
+    width: 85%;
+    margin-left: 15%;
+    
+}
