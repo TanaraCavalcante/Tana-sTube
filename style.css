@@ -126,8 +126,14 @@ nav i{
 
 /*!---------Main----------*/
 
+.container-main{
+    background: #f9f9f9;
+    padding-left: 15%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+
+}
+
 .banner img{
-    width: 85%;
-    margin-left: 15%;
-    
+    width: 100%; 
 }
