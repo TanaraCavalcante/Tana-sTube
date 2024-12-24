@@ -15,7 +15,7 @@ nav{
     padding: 10px ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: white;
-    position: static;
+    position: sticky;
     top: 0;
     z-index: 10;
 }
@@ -56,12 +56,26 @@ nav i{
 }
 
 /*!------ Sidebar ---------*/
+.sidebar{
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+}
 
 .sidebar a{
     text-decoration: none;
     color: #5a5a5a;
+    margin-bottom: 20px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .sidebar i{
     font-size: 25px;
+    margin-right: 20px;
 }
