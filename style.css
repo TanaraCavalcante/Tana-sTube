@@ -66,10 +66,10 @@ nav i{
     padding-top: 90px;
 }
 
-.shortcut-links a{
+.sidebar a{
     text-decoration: none;
     color: #5a5a5a;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: fit-content;
     display: flex;
     flex-wrap: wrap;
@@ -89,3 +89,5 @@ nav i{
     background: #ccc;
     width: 85%;
 }
+
+
