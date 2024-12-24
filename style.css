@@ -9,6 +9,10 @@ img{
     cursor: pointer;
 }
 
+p{
+    font-size: 12px;
+}
+
 /*?------------------------ Header -------------------------*/
 
 nav{
@@ -77,10 +81,6 @@ nav i{
     flex-wrap: wrap;
 }
 
-.sidebar p{
-    font-size: 12px;
-}
-
 .shortcut-links a:first-child{
     color: #ed3833;
 }
@@ -128,12 +128,42 @@ nav i{
 
 .container-main{
     background: #f9f9f9;
-    padding-left: 15%;
-    padding-top: 60px;
+    padding-left: 17%;
+    padding-right: 2%;
+    padding-top: 90px;
     padding-bottom: 20px;
 
 }
 
+/* --jumbotrom --*/
+.banner{
+    width: 100%;
+}
+
 .banner img{
     width: 100%; 
+    border-radius: 8px;
+}
+
+/* --Lista video-- */
+.list-container{
+   display: grid;
+
+}
+
+.list-container .thumbnail{
+    width: 32%;   /*TODO tamanho da imagem aqui*/
+}
+
+.list-container .user{
+    width: 5%;   /*TODO tamanho da imagem aqui*/
+}
+
+.list-container a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+.list-container p{
+    margin: 0;
 }
