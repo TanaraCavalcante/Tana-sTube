@@ -33,7 +33,7 @@ nav span {
 }
 
 .nav-left img{
-    width: 23%;
+    width: 18%;
 }
 
 nav i{
@@ -177,4 +177,38 @@ nav i{
 .vid-info a {
     color: black;
     font-weight: 600;
+}
+
+/*! ---------Responsive------------ */
+
+@media(max-width: 992px){
+    #menu-icon{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container-main, .large-container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .nav-right i{
+        display: none;
+    }
+    .nav-right img{
+        width: 50px;
+    }
+    .nav-middle .search-box input{
+        width: 150px;
+    }
+    .nav-middle .fa-microphone{
+        display: none;
+    }
+    .nav-left span{
+        font-size: 13px;
+    }
+    .nav-left img{
+        width: 15%;
+    }
+    
 }
