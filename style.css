@@ -63,10 +63,10 @@ nav i{
     position: fixed;
     top: 0;
     padding-left: 2%;
-    padding-top: 80px;
+    padding-top: 90px;
 }
 
-.sidebar a{
+.shortcut-links a{
     text-decoration: none;
     color: #5a5a5a;
     margin-bottom: 20px;
@@ -75,7 +75,17 @@ nav i{
     flex-wrap: wrap;
 }
 
-.sidebar i{
-    font-size: 25px;
+.shortcut-links a:first-child{
+    color: #ed3833;
+}
+
+.shortcut-links i{
+    font-size: 20px;
     margin-right: 20px;
+}
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
 }
