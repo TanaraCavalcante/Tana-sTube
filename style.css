@@ -164,3 +164,12 @@ nav i{
 .vid-list .thumbnail{
     border-radius: 5px;
 }
+
+.vid-info{
+    color:#5a5a5a;
+}
+
+.vid-info a {
+    color: black;
+    font-weight: 600;
+}
