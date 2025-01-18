@@ -1,6 +1,3 @@
-
-Ecco la descrizione aggiornata secondo le tue richieste:
-
 🌐 YouTube Channel Replica
 
 Sono entusiasta di condividere un nuovo progetto che ho completato: una replica di un canale YouTube realizzata da zero utilizzando HTML, CSS e JavaScript!
