@@ -9,10 +9,11 @@ Caratteristiche principali
 
 Cosa include?
 
-Una barra di navigazione con link per la home, video, playlist e impostazioni.
-Una sezione canale con informazioni sul creatore, foto di profilo e banner personalizzati.
+Una barra di navigazione con la home, explore, subscription, library e altri.
+Una sezione canale con foto di profilo del creatore e banner personalizzati.
 Una griglia di video con miniature e titoli, perfetta per visualizzare i contenuti del canale.
+
 Obiettivi raggiunti
-📐 Migliorare le competenze in JavaScript, implementando funzionalità interattive come la ricerca e il caricamento dinamico dei video.
+📐 Migliorare le competenze in JavaScript, implementando funzionalità interattive.
 🎨 Riprodurre pattern UI/UX di YouTube, per comprendere meglio come strutturare interfacce utente moderne.
 📱 Layout completamente responsivo: il progetto è ottimizzato per dispositivi mobili e tablet, garantendo un'esperienza utente fluida su qualsiasi schermo.
